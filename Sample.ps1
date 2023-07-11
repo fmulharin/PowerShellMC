@@ -38,8 +38,7 @@ Write-Output "Hello Universe"
 
 #Use a variable
 $name = "John"
-Write-Output "Hello $name"
-
+|
 #Use an environment variable
 Write-Output "Hello $env:USERNAME"
 
